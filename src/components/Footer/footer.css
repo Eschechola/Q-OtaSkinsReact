@@ -1,0 +1,6 @@
+footer{
+    width: 100vw;
+    height: 400px;
+    background: var(--secondary-color-light);
+    position: relative;
+}
