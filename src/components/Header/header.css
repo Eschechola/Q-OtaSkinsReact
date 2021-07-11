@@ -14,7 +14,10 @@ nav{
 .nav-logo{
     flex: 3;
     height: 100%;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-content: center;
 }
 
 
@@ -66,4 +69,8 @@ nav{
     background: transparent;
     color: var(--secondary-text-color) !important;
     transition: .5s;
+}
+
+.logo{
+    width: 300px;
 }
